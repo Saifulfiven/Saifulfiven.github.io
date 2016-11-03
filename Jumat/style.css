@@ -1,0 +1,161 @@
+body{
+  background-image: url("background.png");
+  margin: 0px;
+  padding:1px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrap{
+  position: relative;
+}
+.header{
+  text-align:center;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 0);
+  border:8px dashed;
+  padding: 15px;
+
+}
+
+h1 {
+  letter-spacing: 6px;
+  word-spacing: 2px;
+}
+
+h2{
+  font-style: italic;
+}
+
+h1, h2{
+  font-family:Arial;
+}
+
+.tengah{
+  margin:5% 5%;
+  padding: 60px;
+  border: 2px solid white;
+  background-color: #2ECC71;
+  box-sizing: border-box;
+}
+
+#gambar{
+  background-image: url("iful.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin:0 auto;
+  border-radius: 100%;
+  border: solid 5px #fff;
+
+  -webkit-filter:brightness(-65%);
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+#gambar:hover {
+  -webkit-filter:brightness(50%);
+}
+
+.comment{
+  box-sizing: border-box;
+  font-family: Courier, "Courier new", Arial;
+  margin-left:59%;
+  border-radius:50px 0px 0px 50px;
+  padding:70px 60px;
+  border-left:solid #000 8px;
+  background-color: rgba(255, 201, 0, 0.5);
+  width: 550px;
+}
+
+form{
+  font-size:16px;
+  clear:left;
+  color:black;
+}
+
+h3{
+  text-align:center;
+  float:left;
+  font-size: 28px;
+  color: white;
+}
+
+h1,h2, .comment, #tulisantabel{
+  color:#d60505;
+}
+
+#tulisantabel{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sembunyikan{
+  visibility: hidden;
+}
+
+.masuk{
+    width: 300px;
+    height:40px;
+    margin-top:10px;
+    font-size: 12pt;
+    border: 1px solid #2ECC71;
+    padding-left:10px;
+    color:#2ECC71;
+}
+.masuk:focus{
+    width: 400px;
+    height:40px;
+    margin-top:10px;
+    margin-left: 60px;
+    font-size: 12pt;
+    padding-left:10px;
+    color:#1ABC9C;
+    outline: none;
+    box-shadow: 0 0 5px #2ECC71;
+}
+
+#tombol{
+    width: 300px;
+    height:40px;
+    margin-top:10px;
+    background: #2ECC71;
+    border:none;
+    color:#fff;
+    font-size: 14pt;
+    outline:none;
+}
+
+/* Tombol */
+.effect {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  perspective: 300px;
+  margin:10px 0 0 42%;
+
+}
+
+.effect > div, .effect a {
+  width: 180px;height: 50px;
+  position: absolute;margin:0 auto;
+  color: #30261c;background-color: #04a3ed;
+  font-size: 35px;text-align: center;
+  text-shadow:1px 2px 3px red;}
+
+.effect > a {
+  display: block;color:#fff;
+  background-color: #DC143C;
+  text-shadow:1px 2px 4px #111;}
+
+//Flip Style Effect...
+.flip > a {transform: rotateX(-180deg);}
+.flip:hover > div {transform: rotateX(90deg);}
+.flip:hover > a {transform: rotateX(0deg);}
+.flip:hover > div, .flip > a {transition: 0.5s all linear 0;}
+.flip:hover > a, .flip > div {transition: 0.5s all linear 0.1s;}
