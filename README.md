@@ -42,3 +42,7 @@ background-image, border, box-sizing, padding, margin, font, clear, box-shadow d
 ##About Me
 Saya Saiful H. Sahabu Lahir di Makassar, 1993 - February - 10, Kuliah di STMIK DIPANEGARA MAKASSAR
 Sedang belajar Website di Hacktiv8 
+
+##FUTURE PLANS
+rencana kedepannya Website ini dapat menghubungkan Profil2 kita dengan teman-teman yang bermain Dota.
+Sehingga dapat mengetahui Role masing-masing.
