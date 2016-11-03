@@ -6,10 +6,7 @@ Website ini Untuk Menampilkan Profil saya, dan untuk melihat Hero Dota Favorit t
 
 ##Used Tags & Syntaxes:
 Daftar Tag Html dan CSS yang digunakan untuk membuat Website ini ialah :
-'''
-	<h1>My Iful's Webpage</h1>
-	<h2>Welcome Everyone!</h2>
-	<a href="#">Saiful</a> Untuk menuju Halaman Facebook saya
+
 
 	<table>
 		<thead>
@@ -25,16 +22,19 @@ Daftar Tag Html dan CSS yang digunakan untuk membuat Website ini ialah :
 			</tr>
 		</tbody>
 	</table>
+	<h1>My Iful Webpage</h1>
+	<h2>Welcome Everyone!</h2>
+	<a>Saiful</a> Untuk menuju Halaman Facebook saya
 
-	<p>Pada Perkenalan</p>
+	<p>Tag ini Pada Perkenalan</p>
 
 	<form>
 	<label>First Name</label>
-	<input type="text" name="username">
-	<input type="submit" value="kirim">
+	<input type='text' name='username'>
+	<input type='submit' value='kirim'>
 	</form>
 	tag <form> Untuk menginput Biodata
-'''
+
 
 dan Saya menggunakan beberapa Code CSS Sperti :
 background-image, border, box-sizing, padding, margin, font, clear, box-shadow dan Code CSS lainnya.
